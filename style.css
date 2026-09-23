@@ -91,6 +91,71 @@ nav img{
 	font-size: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skill_section{
+	height: 100vh;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.skill_section div{
+	padding: 20px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, .1);
+	backdrop-filter: blur(1px);
+	vertical-align: top;
+	height: 50%;
+	transition: .2s ease-in-out;
+}
+
+.skill_section h1{
+	text-align: center;
+	margin-bottom: 20px;
+	color: lightgray;
+	font-size: 50px;
+}
+
+.skill_section li{
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer_section{
 	padding: 20px;
 	width: 100%;
