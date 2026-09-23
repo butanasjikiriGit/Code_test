@@ -42,9 +42,44 @@ li:hover{
 	text-shadow: 2px 2px 2px black;
 }
 
-img{
+nav img{
 	height: 50px;
 	position: absolute;
 	left: 20px;
 	border-radius: 100%;
+}
+
+.footer_section{
+	padding: 20px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .3);
+	position: relative;
+	backdrop-filter: blur(4px);
+}
+
+.footer_section p{
+	color: lightgray;
+	text-align: center;
+}
+
+.footer_section .icon{
+	height: 30px;
+	border-radius: 5px;
+	border: solid 1px lightgray;
+	background-color: white;
+	transition: .2s ease-in-out;
+}
+
+.footer_section .icon:hover{
+	translate: 0px -5px;
+	scale: 1.1;
+}
+
+address div{
+	margin: 10px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
 }
