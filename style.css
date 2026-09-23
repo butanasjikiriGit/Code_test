@@ -6,7 +6,10 @@
 }
 
 body{
-	height: 200vh;
+	height: 100vh;
+	background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 nav{
@@ -17,7 +20,8 @@ nav{
 	position: sticky;
 	top: 0;
 	border-bottom: solid 1px black;
-	margin: 0px 10px;
+	background-color: rgba(0, 0, 0, .3);
+	backdrop-filter: blur(5px);
 }
 
 li{
@@ -26,6 +30,7 @@ li{
 	display: inline-block;
 	font-weight: bolder;
 	font-size: 15px;
+	color: white;
 	transition: .2s ease-in-out;
 	cursor: pointer;
 }
