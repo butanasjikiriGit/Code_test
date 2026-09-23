@@ -124,7 +124,14 @@ nav img{
 
 
 
+<<<<<<< HEAD
+
+
+
+.skill_section{
+=======
 .about_section{
+>>>>>>> main
 	height: 100vh;
 	padding: 20px;
 	display: flex;
@@ -132,7 +139,11 @@ nav img{
 	gap: 10px;
 }
 
+<<<<<<< HEAD
+.skill_section div{
+=======
 .about_section div{
+>>>>>>> main
 	padding: 20px;
 	border-radius: 10px;
 	background-color: rgba(255, 255, 255, .1);
@@ -142,6 +153,17 @@ nav img{
 	transition: .2s ease-in-out;
 }
 
+<<<<<<< HEAD
+.skill_section h1{
+	text-align: center;
+	margin-bottom: 20px;
+	color: lightgray;
+	font-size: 50px;
+}
+
+.skill_section li{
+	color: green;
+=======
 .about_section h1{
 	color: lightgray;
 	text-align: center;
@@ -152,6 +174,7 @@ nav img{
 .about_section p{
 	color: lightgray;
 	font-size: 15px;
+>>>>>>> main
 }
 
 
@@ -168,6 +191,15 @@ nav img{
 
 
 
+<<<<<<< HEAD
+
+
+
+
+
+
+=======
+>>>>>>> main
 .footer_section{
 	padding: 20px;
 	width: 100%;
