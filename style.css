@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: monospace;
+	box-sizing: border-box;
+}
+
+body{
+	height: 200vh;
+}
+
+nav{
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	border-bottom: solid 1px black;
+	margin: 0px 10px;
+}
+
+li{
+	list-style: none;
+	margin: 0px 20px;
+	display: inline-block;
+	font-weight: bolder;
+	font-size: 15px;
+	transition: .2s ease-in-out;
+	cursor: pointer;
+}
+
+li:hover{
+	font-weight: bolder;
+	position: relative;
+	scale: 1.5;
+	text-shadow: 2px 2px 2px black;
+}
+
+img{
+	height: 50px;
+	position: absolute;
+	left: 20px;
+	border-radius: 100%;
+}
