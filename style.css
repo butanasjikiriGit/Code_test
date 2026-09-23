@@ -9,12 +9,32 @@ html::-webkit-scrollbar{
 	display: none;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body{
-	height: 100vh;
+	height: auto;
 	background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+nav a{
+	text-decoration: none;
+	color: white;
 }
 
 nav{
@@ -90,6 +110,63 @@ nav img{
 	color: lightgray;
 	font-size: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about_section{
+	height: 100vh;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.about_section div{
+	padding: 20px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, .1);
+	backdrop-filter: blur(1px);
+	vertical-align: top;
+	height: 50%;
+	transition: .2s ease-in-out;
+}
+
+.about_section h1{
+	color: lightgray;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.about_section p{
+	color: lightgray;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer_section{
 	padding: 20px;
