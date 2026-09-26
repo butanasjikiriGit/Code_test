@@ -18,6 +18,44 @@ header{
     flex: 1;
     background-color: rgb(134, 134, 206);
     border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > :nth-child(1){
+    flex: 1;
+}
+
+header > :nth-child(2){
+    flex: 10;
+}
+
+header > :nth-child(3){
+    flex: 1;
+}
+
+div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+div li{
+    transition: .2s;
+}
+
+div li:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    scale: 1.1;
 }
 
 
