@@ -162,6 +162,7 @@ section{
 	outline-color: rgb(64, 64, 172);
 }
 
+<<<<<<< HEAD
 .login label{
 	color: lightgray;
 	position: absolute;
@@ -183,6 +184,9 @@ section{
 	color: white;
 	cursor: pointer;
 }
+=======
+
+>>>>>>> origin/footer
 
 
 
@@ -192,6 +196,7 @@ section{
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -199,9 +204,23 @@ section{
 
 >>>>>>> origin/body
 
+=======
+>>>>>>> origin/footer
 footer{
 	border: solid 1px black;
 	border-radius: 5px;
 	flex: 1;
-	background-color: rgb(94, 192, 70);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+address .inner{
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.inner img{
+	height: 30px;
 }
