@@ -34,6 +34,43 @@ section{
     flex: 10;
     background-color: rgb(206, 134, 134);
     border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div{
+    padding: 20px;
+    width: 300px;
+    border: solid 1px black;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div{
+    width: 100%;
+}
+
+div input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: solid 1px lightgray;
+    margin-bottom: 10px;
+}
+
+div button{
+    padding: 5px;
+    width: 100%;
+    color: white;
+    background-color: rgb(91, 91, 168);
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 10px;
+    border-radius: 3px;
 }
 
 
