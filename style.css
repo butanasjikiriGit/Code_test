@@ -96,15 +96,108 @@ header{
 
 /* This is the content CSS part */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 section{
 	border: solid 1px black;
 	border-radius: 5px;
 	flex: 10;
-	background-color: rgb(192, 70, 70);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login{
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px gray;
+	width: 300px;
+	position: relative;
+}
+
+.login h1, .login h4{
+	margin-bottom: 10px;
+}
+
+.login .text-box{
+	width: 100%;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.login input{
+	width: 100%;
+	padding: 10px;
+	border: solid 1px lightgray;
+	border-radius: 2px;
+}
+
+<<<<<<< HEAD
+
+/* This is the footer CSS part */
+=======
+.login input:focus ~ label, .login input:not(:placeholder-shown) ~ label{
+	top: -10px;
+	font-size: .8em;
+	padding: 2px;
+	background-color: white;
+	color: rgb(80, 80, 212);
+	font-weight: bolder;
+}
+
+.login input:focus{
+	outline-color: rgb(64, 64, 172);
+}
+
+.login label{
+	color: lightgray;
+	position: absolute;
+	left: 10px;
+	top: 8px;
+	font-size: 1em;
+	pointer-events: none;
+	transition: .2s ease-in-out;
+}
+
+.login button{
+	padding: 8px 20px;
+	font-size: 1em;
+	font-weight: bolder;
+	width: 100%;
+	border: none;
+	border-radius: 2px;
+	background-color: rgb(139, 139, 194);
+	color: white;
+	cursor: pointer;
 }
 
 
-/* This is the footer CSS part */
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> origin/body
 
 footer{
 	border: solid 1px black;
