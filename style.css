@@ -127,4 +127,15 @@ footer{
     flex: 1;
     background-color: rgb(140, 206, 134);
     border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+address{
+    text-align: center;
+}
+
+div img{
+    height: 30px;
 }
