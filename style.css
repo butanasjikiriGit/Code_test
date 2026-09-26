@@ -1,29 +1,39 @@
 *{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
+
+
+/* header css style */
 header{
-	border: solid 1px black;
-	border-radius: 5px;
-	flex: 1;
-	background-color: rgb(70, 70, 192);
+    flex: 1;
+    background-color: rgb(134, 134, 206);
+    border: solid 1px black;
 }
 
 
+
+
+
+
+
+
+
+
+/* section css style */
 section{
-	border: solid 1px black;
-	border-radius: 5px;
-	flex: 10;
-	background-color: rgb(192, 70, 70);
+    flex: 10;
+    background-color: rgb(206, 134, 134);
+    border: solid 1px black;
 }
 
 
@@ -36,21 +46,10 @@ section{
 
 
 
+
+/* footer css style */
 footer{
-	border: solid 1px black;
-	border-radius: 5px;
-	flex: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-address .inner{
-	display: flex;
-	justify-content: center;
-	gap: 5px;
-}
-
-.inner img{
-	height: 30px;
+    flex: 1;
+    background-color: rgb(140, 206, 134);
+    border: solid 1px black;
 }
